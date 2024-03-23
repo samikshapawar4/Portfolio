@@ -1,0 +1,301 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+.leftSection .dtn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.rightSection img {
+
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(116, 36, 190);
+    height: 1.2px;
+    margin: 40px 84px;
+
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: white;
+    width: 74vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-text {
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+footer {
+    background-color:rgb(0, 0, 33);
+   
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+
+}
+
+
+
+#portfolio {
+    width: 70%;
+    margin: 40px auto;
+  
+}
+
+.skill {
+    margin-bottom: 20px;
+
+}
+
+.skill-name {
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: block;
+    color: #ffffff;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 35px;
+    width: 0;
+    background-color: #4CAF50;
+    border-radius: 20px;
+    line-height: 35px;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* Add specific gradient backgrounds for each skill-fill based on the skill */
+.skill:nth-child(1) .skill-fill { background-color: #e44d26; }
+.skill:nth-child(2) .skill-fill { background-color: #2683fc; }
+.skill:nth-child(3) .skill-fill { background-color: #fbc531; }
+.skill:nth-child(4) .skill-fill { background-color: #4CAF50; }
+.skill:nth-child(5) .skill-fill { background-color: #e67e22; }
+.skill-name .skill-bar{
+    display: inline-flex;
+}
+.portfolio-some{
+    text-align: center;
+    font-style:italic;
+}
+.footer-pading{
+    padding-top: 30px;
+
+    padding-bottom: 100px;
+}
+.Copyright{
+    background-color: #1e2167;
+}
+.footer-pading > div{
+    padding-top: 80px;
+}
+.portfolio-some:hover{
+   
+    color: #fbc531;
+}
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.hr {
+    border: 0;
+    background-color: rgb(116, 36, 190);
+    height: 1.2px;
+    margin: 40px 84px;
+   
+}
+.down{
+    padding-bottom: 30px;
+}
